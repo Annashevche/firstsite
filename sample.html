@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+ <meta charset="UTF-8">
+ <title>Сайт української кухні</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+  <nav>
+   <ul>
+    <li><a href="#about">Про нас</a></li>
+    <li><a href="#menu">Меню</a></li>
+    <li><a href="#contact">Контакти</a></li>
+   </ul>
+  </nav>
+  <div class="header-content">
+   <h1>Смачна українська кухня</h1>
+   <p>Найсмачніші страви нашої кухні</p>
+   <a href="#menu" class="btn">Дивитися меню</a>
+  </div>
+ </header>
+ <section id="about">
+  <div class="container">
+   <h2>Про нас</h2>
+   <p>Ми - ресторан української кухні, який пропонує найсмачніші страви національної кухні. Наші шеф-кухарі зібрали найкращі рецепти та вдосконалили їх, щоб Ви могли насолоджуватися справжньою смакотою. Ми використовуємо тільки свіжі та натуральні продукти, щоб Ви мали тільки найкращий досвід.</p>
+   <p>Приходьте до нас та відчуйте смак української кухні.</p>
+  </div>
+ </section>
+ <section id="menu">
+  <div class="container">
+   <h2>Наше меню</h2>
+   <div class="menu-item">
+    <img src="img/borsch.jpg" alt="Борщ">
+    <div class="menu-item-content">
+     <h3>Борщ</h3>
+     <p>Найпопулярніша страва української кухні. Смачний та ситний борщ, який приготований зі свіжих овочів та м'яса.</p>
+     <span class="price">70 грн</span>
+    </div>
+   </div>
+   <div class="menu-item">
+    <img src="img/varenyky.jpg" alt="Вареники">
+    <div class="menu-item-content">
+     <h3>Вареники з картоплею</h3>
+     <p>Наші вареники з картоплею - це справжня насолода для шанувальників украї
+нської кухні. Вони приготовані зі свіжих інгредієнтів та мають неповторний смак.</p>
+<span class="price">60 грн</span>
+</div>
+</div>
+<div class="menu-item">
+<img src="img/holubtsi.jpg" alt="Голубці">
+<div class="menu-item-content">
+<h3>Голубці з м'ясом</h3>
+<p>Наші голубці - це справжня делікатеса. Вони приготовані з найсвіжіших продуктів та мають неповторний смак.</p>
+<span class="price">90 грн</span>
+</div>
+</div>
+<div class="menu-item">
+<img src="img/salad.jpg" alt="Салат">
+<div class="menu-item-content">
+<h3>Салат зі свіжих овочів</h3>
+<p>Наш салат зі свіжих овочів - це справжня вибірковість. Він містить найкращі овочі та заправлений натуральним олією.</p>
+<span class="price">40 грн</span>
+</div>
+</div>
+</div>
+</section>
+<section id="contact">
+<div class="container">
+<h2>Контакти</h2>
+<p>Якщо у вас є запитання або пропозиції, будь ласка, зв'яжіться з нами.</p>
+<form action="#" method="POST">
+<label for="name">Ім'я</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Електронна пошта</label>
+<input type="email" id="email" name="email" required>
+<label for="message">Повідомлення</label>
+<textarea id="message" name="message" required></textarea>
+<button type="submit" class="btn">Надіслати</button>
+</form>
+</div>
+</section>
+<footer>
+<div class="container">
+<p>© 2023 Смачна українська кухня</p>
+</div>
+</footer>
+</body>
+</html>
+/* CSS */
+ • {
+ • margin: 0;
+ • padding: 0;
+ • box-sizing: border-box;
+ • }
+body {
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+color: #333;
+background-color: #f2f2f2;
+}
+header {
+background-color: #fff;
+padding: 40px;
+text-align: center;
+}
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+align
